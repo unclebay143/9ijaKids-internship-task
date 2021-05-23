@@ -54,8 +54,11 @@ export const Games = () => {
                 <div className="games_wrapper">
 
                     {/* IF THERE IS NO SEARCH RESULT RENDER A MESSAGE */}
-                    <div className="result_message">
+                    <div className={`${(noResult || !games) && "result_message"}`}>
                         { noResult && <p>Opps Game titled {searchQuery} does not exist</p> }
+                        { !games && <p>Hi 🙋‍♂️,<br /> that's probably a CORS issue from the API, you can kindly checkout the 
+                            <a target="_blank" href="https://github.com/unclebay143/9ijaKids-internship-task"> Github repo </a> 
+                            with <a target="_blank" href="https://github.com/unclebay143/9ijaKids-internship-task#readme"> Screenshots</a></p> }
                     </div>
 
 

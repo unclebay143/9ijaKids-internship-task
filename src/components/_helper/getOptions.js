@@ -9,10 +9,8 @@
 // THIS FUNCTION RETURN GROUPS WITHOUT DUPLICATION
 
 export const getGroupOption = (arrayOfObjects) =>{
-    console.log(arrayOfObjects);
-    
-    let getOption = arrayOfObjects.map((object) => object.Group);
-    let removeDuplicateOptions = arrayOfObjects.filter(({Group}, index) => !getOption.includes(Group, index + 1));
+    let getOption = arrayOfObjects?.map((object) => object.Group);
+    let removeDuplicateOptions = arrayOfObjects?.filter(({Group}, index) => !getOption.includes(Group, index + 1));
 
     return removeDuplicateOptions;
 }
@@ -20,10 +18,8 @@ export const getGroupOption = (arrayOfObjects) =>{
 
 // THIS FUNCTION RETURN LEVELS WITHOUT DUPLICATION
 export const getLevelOption = (arrayOfObjects) =>{
-    console.log(arrayOfObjects);
-    
-    let getOption = arrayOfObjects.map((object) => object.Level);
-    let removeDuplicateOptions = arrayOfObjects.filter(({Level}, index) => !getOption.includes(Level, index + 1));
+    let getOption = arrayOfObjects?.map((object) => object.Level);
+    let removeDuplicateOptions = arrayOfObjects?.filter(({Level}, index) => !getOption.includes(Level, index + 1));
 
     return removeDuplicateOptions;
 }

@@ -9,14 +9,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .navbar__brand h1{
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
     letter-spacing: 1.2px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .search__games{

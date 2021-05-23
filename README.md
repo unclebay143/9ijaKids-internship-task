@@ -12,18 +12,18 @@ REQUIREMENTS:
 
 
 
-### Home Page
+# Home Page
 ![image](https://user-images.githubusercontent.com/58919619/119278683-b2d0c800-bc1e-11eb-91e9-1ffbdad87118.png)
 
 
-### Search By Topic
-Users can perform a live search by start typing
+# Search By Topic
+### Users can perform a live search by start typing
 ![image](https://user-images.githubusercontent.com/58919619/119278727-05aa7f80-bc1f-11eb-9c39-4edc60e57653.png)
 
 
-### Filter Games by Group
+# Filter Games by Group
 ![image](https://user-images.githubusercontent.com/58919619/119278745-2672d500-bc1f-11eb-82f4-89a5b2766be2.png)
 
 
-### Filter Games by Level
+# Filter Games by Level
 ![image](https://user-images.githubusercontent.com/58919619/119278884-0e4f8580-bc20-11eb-8251-745eeeaee7f5.png)
